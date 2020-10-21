@@ -9,6 +9,7 @@ class MainActivity : AppCompatActivity() {
 
     val TAG : String = "MainActivity"
     override fun onCreate(savedInstanceState: Bundle?) {
+        //added a new comment
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         feedTheFish()
